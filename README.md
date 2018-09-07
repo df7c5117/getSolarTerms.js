@@ -2,7 +2,9 @@
 
 小而暴力的节气计算工具 
 
- ©2018 df7c5117@OUC
+ ©2018 df7c5117 @ OUC
+
+ [Try Demo](https://df7c5117.github.io/getSolarTerms.js)
 
 ### 为什么暴力
 
@@ -10,7 +12,7 @@
 
 ### 注意事项
 
-* 系统计算系数仅限21世纪可用
+* 系统计算系数仅限 21 世纪可用
 
 ### 参数说明
 
@@ -25,7 +27,7 @@
 
 `getSolarTerms(Term,Year)`
 
-#### eg1 查询本年度的小满
+#### eg 1 查询本年度的小满
 
 `getSolarTerms("Xiaoman")`
 
@@ -34,7 +36,7 @@
 `"May 21"`
 
 
-#### eg2 查询2020年的夏至
+#### eg 2 查询 2020 年的夏至
 
 `getSolarTerms("Xiazhi",2020)`
 
