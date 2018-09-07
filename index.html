@@ -18,7 +18,7 @@
 					<br>
 					<input type="number" class="form-control" id="years" placeholder="年份，留空为当前">
 					<br>
-					<button id="button" class="btn btn-success btn-block" onclick="submitData()">提交</button>
+					<button id="button" class="btn btn-success btn-block" onclick="submitData()">查询</button>
 				</center>
 				</div>
 			</div>
@@ -32,9 +32,7 @@
 	function submitData(){
 		var DataT = document.getElementById("terms").value + "";
 		var DataY = document.getElementById("years").value;
-		console.log(DataT);
-		console.log(DataY);
-		document.getElementById("button").innerHTML = getSolarTerms(DataT,DataY);		
+		document.getElementById("button").innerHTML = getSolarTerms(DataT,DataY) + " ，继续查询";		
 	}
 	
 </script>

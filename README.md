@@ -1,12 +1,12 @@
 # getSolarTerms.js
 
-小而暴力的节气计算工具 
+小而不美的节气计算工具 
 
  ©2018 df7c5117 @ OUC
 
  [Try Demo](https://df7c5117.github.io/getSolarTerms.js)
 
-### 为什么暴力
+### 为什么不美
 
 简单粗暴的 24 个 else if 解决计算操作，以及 10 个 if 对部分不按基本法的日期进行校正，毫无代码美学。
 
